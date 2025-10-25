@@ -1,36 +1,44 @@
-import { Linkedin, Mail, Twitter } from "lucide-react";
+import { Facebook, Linkedin, Mail, Twitter } from "lucide-react";
 import Container from "./Container";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-gray-300 px-8 py-12  ">
+    <footer className="bg-black text-gray-300 px-8 py-12">
       <Container>
         <div className="grid md:grid-cols-5 gap-8">
+          {/* Company Info */}
           <div>
             <h3 className="text-white font-semibold mb-2">
-              PH — Assignment System
+              CS — Ticket System
             </h3>
-            <p className="text-sm">
-              Customer Support Zone is a centralized platform designed to
-              efficiently manage customer service tickets.
+            <p className="text-sm leading-relaxed">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
             </p>
           </div>
+
+          {/* Company */}
           <div>
             <h4 className="text-white font-semibold mb-2">Company</h4>
             <ul className="space-y-1 text-sm">
               <li>About Us</li>
               <li>Our Mission</li>
-              <li>Contact Administrator</li>
+              <li>Contact Sales</li>
             </ul>
           </div>
+
+          {/* Services */}
           <div>
             <h4 className="text-white font-semibold mb-2">Services</h4>
             <ul className="space-y-1 text-sm">
-              <li>Education & Services</li>
-              <li>Student Stories</li>
+              <li>Products & Services</li>
+              <li>Customer Stories</li>
               <li>Download Apps</li>
             </ul>
           </div>
+
+          {/* Information */}
           <div>
             <h4 className="text-white font-semibold mb-2">Information</h4>
             <ul className="space-y-1 text-sm">
@@ -39,27 +47,49 @@ const Footer = () => {
               <li>Join Us</li>
             </ul>
           </div>
+
+          {/* Social Links */}
           <div>
             <h4 className="text-white font-semibold mb-2">Social Links</h4>
-            <ul className="space-y-1 text-sm">
-              <li className="flex gap-2 items-center">
-                {" "}
-                <Twitter /> @CS — Twitter
+            <ul className="space-y-2 text-sm">
+              {/* X (Twitter) */}
+              <li className="flex items-center gap-2 hover:text-white transition">
+                <span className="bg-white rounded-full p-1 text-black">
+                  <Twitter size={14} />
+                </span>
+                @CS — Ticket System
               </li>
-              <li className="flex gap-2 items-center">
-                {" "}
-                <Linkedin /> @CS — Linkedin
+
+              {/* LinkedIn */}
+              <li className="flex items-center gap-2 hover:text-white transition">
+                <span className="bg-white rounded-full p-1 text-black">
+                  <Linkedin size={14} />
+                </span>
+                @CS — Ticket System
               </li>
-              <li className="flex gap-2 items-center">
-                {" "}
-                <Mail /> support@csz.com
+
+              {/* Facebook */}
+              <li className="flex items-center gap-2 hover:text-white transition">
+                <span className="bg-white rounded-full p-1 text-black">
+                  <Facebook size={14} />
+                </span>
+                @CS — Ticket System
+              </li>
+
+              {/* Email */}
+              <li className="flex items-center gap-2 hover:text-white transition">
+                <span className="bg-white rounded-full p-1 text-black">
+                  <Mail size={14} />
+                </span>
+                support@csz.com
               </li>
             </ul>
           </div>
         </div>
-        <div className="text-left md:text-center  text-sm mt-8">
-          © 2025 CS — Ticket System.
-          <br className="block md:hidden" /> All rights reserved.
+
+        {/* Divider */}
+        <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm">
+          © 2025 <span className="text-white font-semibold">CS — Ticket System</span>. All rights reserved.
         </div>
       </Container>
     </footer>
