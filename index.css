@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+.dark-theme {
+    --main-heading: #0092ed;
+    --second-heading: red;
+    --paragraph-color: #fff;
+    --btn-bg-color: #0092ed;
+    --btn-text-color: #111b20;
+    --bg-color: #111b20;
+}
+
+.light-theme {
+    --main-heading: #808080;
+    --second-heading: green;
+    --paragraph-color: #808080;
+    --btn-bg-color: #111b20;
+    --btn-text-color: #fff;
+    --bg-color: #fff;
+}
+
+/* body {
+    margin: 30px;
+    padding: 30px;
+    scroll-behavior: smooth;
+    background-color: var(--bg-color) !important;
+} */
+
+h1 {
+    font-size: 2rem;
+    color: var(--main-heading);
+}
+
+.about-heading {
+    font-size: 1rem;
+    color: var(--second-heading);
+}
+
+p {
+    font-size: 1rem;
+    color: var(--paragraph-color);
+}
+
+a {
+    cursor: pointer;
+}
+
+/* button {
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+
+} */
