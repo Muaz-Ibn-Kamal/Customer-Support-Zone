@@ -7,7 +7,6 @@ const Banner = ({ inProgressCount, resolvedCount }) => {
     <div className="w-full bg-gray-100 p-10  ">
       <Container>
         <div className=" px-4 grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* In-Progress Card */}
           <div className="relative bg-gradient-to-r from-[#9F62F2] to-[#632EE3] rounded-xl flex flex-col items-center justify-center text-white shadow-lg lg:h-60 h-40 overflow-hidden">
             <img
               src={bgImg}
@@ -26,7 +25,6 @@ const Banner = ({ inProgressCount, resolvedCount }) => {
               <p className="text-4xl font-bold pt-2">{inProgressCount}</p>
             </div>
           </div>
-          {/* Resolved Card */}
           <div className="relative bg-gradient-to-r from-[#54CF68] to-[#00827A] rounded-xl p-6 flex flex-col items-center justify-center text-white shadow-lg lg:h-60 h-40 overflow-hidden">
             <img
               src={bgImg}
