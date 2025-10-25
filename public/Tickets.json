@@ -1,0 +1,137 @@
+[
+  {
+    "id": "#1001",
+    "title": "Login Issues - Can't Access Account",
+    "desc": "Customer is unable to log in to their account...",
+    "status": "Open",
+    "priority": "HIGH PRIORITY",
+    "name": "John Smith",
+    "date": "1/15/2024"
+  },
+  {
+    "id": "#1002",
+    "title": "Payment Failed - Card Declined",
+    "desc": "Customer attempted to pay using Visa ending 1234...",
+    "status": "Open",
+    "priority": "HIGH PRIORITY",
+    "name": "Sarah Johnson",
+    "date": "1/16/2024"
+  },
+  {
+    "id": "#1003",
+    "title": "Unable to Download Invoice",
+    "desc": "Customer cannot download their January invoice...",
+    "status": "Open",
+    "priority": "MEDIUM PRIORITY",
+    "name": "Michael Brown",
+    "date": "1/17/2024"
+  },
+  {
+    "id": "#1004",
+    "title": "Incorrect Billing Address",
+    "desc": "Customer’s billing address shows a different city...",
+    "status": "Open",
+    "priority": "LOW PRIORITY",
+    "name": "Emily Davis",
+    "date": "1/18/2024"
+  },
+  {
+    "id": "#1005",
+    "title": "App Crash on Launch",
+    "desc": "Customer reports the mobile app crashes immediately...",
+    "status": "Open",
+    "priority": "HIGH PRIORITY",
+    "name": "David Wilson",
+    "date": "1/19/2024"
+  },
+  {
+    "id": "#1006",
+    "title": "Refund Not Processed",
+    "desc": "Customer requested a refund but has not received it yet...",
+    "status": "Open",
+    "priority": "MEDIUM PRIORITY",
+    "name": "Sophia Taylor",
+    "date": "1/20/2024"
+  },
+  {
+    "id": "#1007",
+    "title": "Two-Factor Authentication Issue",
+    "desc": "Customer is not receiving 2FA codes on their phone...",
+    "status": "Open",
+    "priority": "HIGH PRIORITY",
+    "name": "James Anderson",
+    "date": "1/21/2024"
+  },
+  {
+    "id": "#1008",
+    "title": "Unable to Update Profile Picture",
+    "desc": "Customer gets an error when trying to update profile picture...",
+    "status": "Open",
+    "priority": "LOW PRIORITY",
+    "name": "Olivia Martinez",
+    "date": "1/22/2024"
+  },
+  {
+    "id": "#1009",
+    "title": "Subscription Auto-Renewal",
+    "desc": "Customer wants to enable auto-renewal but toggle is disabled...",
+    "status": "Open",
+    "priority": "MEDIUM PRIORITY",
+    "name": "Liam Thomas",
+    "date": "1/23/2024"
+  },
+  {
+    "id": "#1010",
+    "title": "Missing Order Confirmation Email",
+    "desc": "Customer placed an order but didn’t receive confirmation email...",
+    "status": "Open",
+    "priority": "LOW PRIORITY",
+    "name": "Isabella Garcia",
+    "date": "1/24/2024"
+  },
+  {
+    "id": "#1011",
+    "title": "Slow Website Performance",
+    "desc": "Customer reports the website is loading very slowly...",
+    "status": "Open",
+    "priority": "MEDIUM PRIORITY",
+    "name": "Ethan Clark",
+    "date": "1/25/2024"
+  },
+  {
+    "id": "#1012",
+    "title": "Duplicate Charges on Credit Card",
+    "desc": "Customer was charged twice for the same transaction...",
+    "status": "Open",
+    "priority": "HIGH PRIORITY",
+    "name": "Ava Robinson",
+    "date": "1/26/2024"
+  },
+  {
+    "id": "#1013",
+    "title": "Feature Request - Dark Mode",
+    "desc": "Customer is requesting a dark mode option for the app...",
+    "status": "Open",
+    "priority": "LOW PRIORITY",
+    "name": "Noah Walker",
+    "date": "1/27/2024"
+  },
+  {
+    "id": "#1014",
+    "title": "Email Notifications Not Working",
+    "desc": "Customer is not receiving email notifications for updates...",
+    "status": "Open",
+    "priority": "MEDIUM PRIORITY",
+    "name": "Mia Harris",
+    "date": "1/28/2024"
+  },
+  {
+    "id": "#1015",
+    "title": "Account Suspended Without Reason",
+    "desc": "Customer’s account was suspended without clear explanation...",
+    "status": "Open",
+    "priority": "HIGH PRIORITY",
+    "name": "William Young",
+    "date": "1/29/2024"
+  }
+]
