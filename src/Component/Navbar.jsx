@@ -11,7 +11,7 @@ const Navbar = () => {
     <Container>
       <div className="flex justify-between items-center p-4 ">
         {/* Logo */}
-        <h2 className="text-2xl font-bold">CS-Zone</h2>
+        <h2 className="text-2xl font-bold">CS-Ticket Zone</h2>
 
         {/* Desktop + Tablet Menu */}
         <div className="hidden md:flex lg:gap-5 items-center gap-3">
